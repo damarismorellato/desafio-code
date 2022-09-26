@@ -1,0 +1,40 @@
+:root {
+    --color-primary: #FFFFFF;
+    --color-secundary:#8E2424;
+    --gray-500:  #667085;
+    --font-default: 16px;
+}
+
+body {
+    background-color: var(--color-primary);
+    color: var(--gray-500);
+    font-family: "Inter";
+    font-size: var(--font-default);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--gray-500);
+}
+
+.nav-botao {
+    color:var(--color-primary);
+    background-color: var(--color-secundary);
+    padding: 10px;
+    border-radius: 5px;
+}
