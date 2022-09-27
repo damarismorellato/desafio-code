@@ -38,3 +38,23 @@ nav {
     padding: 10px;
     border-radius: 5px;
 }
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+.container__titulo {
+    text-align: center;
+    color: var(--color-secundary);
+}
+
+.container__destaque {
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+}
+
+.container__texto {
+    text-align: center;
+}
