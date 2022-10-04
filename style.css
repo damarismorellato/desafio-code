@@ -80,7 +80,7 @@ button#signUp {
     margin: 0 auto;
 }
 
-.metricas{
+.metricas {
     display: block;
 }
 
@@ -102,4 +102,62 @@ button#signUp {
     font-size: var(--font-default);
     color: var(--gray-500);
     line-height: 24px;
+}
+
+.talentos__badge {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-secundary);
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    padding: 4px 12px;
+}
+
+.talentos__titulo {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    padding: 0.5em 0;
+
+}
+
+.talentos__texto {
+    font-size: 20px;
+    line-height: 30px;
+    color: #667085;
+    padding-bottom: 3em;
+}
+
+.container__vaga {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 336px;
+}
+
+.vaga {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 24px 28px;
+    gap: 24px;
+    box-sizing: border-box;
+    border: 1px solid #EAECF0;
+    width: 768px;
+    height: 138px;
+    border-radius: 16px;
+    margin: 24px 0;
+}
+
+.titulo__vaga {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+}
+
+.informacoes span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
 }
