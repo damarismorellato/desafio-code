@@ -1,163 +1,264 @@
 :root {
-    --color-primary: #FFFFFF;
-    --color-secundary: #8E2424;
-    --gray-500: #667085;
-    --font-default: 16px;
+  --color-primary: #ffffff;
+  --color-secundary: #8e2424;
+  --gray-500: #667085;
+  --font-default: 16px;
 }
 
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 body {
-    width: 100%;
-    height: 100vh;
+  width: 100%;
+  height: 100vh;
 }
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
 }
 
 .links a {
-    color: var(--gray-500);
-    text-decoration: none;
-    margin-right: 2rem;
+  color: var(--gray-500);
+  text-decoration: none;
+  margin-right: 2rem;
 }
 
 button {
-    padding: 0.8rem 1rem;
-    cursor: pointer;
-    border: none;
-    border-radius: 0.5rem;
-    font-weight: 500;
-    background: none;
-    color: var(--gray-500);
-    font-size: 0.9rem;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  background: none;
+  color: var(--gray-500);
+  font-size: 0.9rem;
 }
 
 button#signUp {
-    background-color: var(--color-secundary);
-    color: #FFF;
+  background-color: var(--color-secundary);
+  color: #fff;
 }
 
 .container {
-    padding: 7rem 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  padding: 7rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container__titulo {
-    text-align: center;
-    color: var(--color-secundary);
+  text-align: center;
+  color: var(--color-secundary);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0.5em;
 }
 
 .container__destaque {
-    font-size: 48px;
-    font-weight: 600;
-    text-align: center;
-    color: #000;
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+  padding: 0.5em;
+}
+
+.container__colaboradores {
+  margin: 40px auto;
+  display: flex;
+  padding: 64px;
+  align-items: center;
+  flex-direction: column;
+  width: 1216px;
+  justify-content: center;
+  height: 404px;
+  background: rgba(196, 25, 25, 0.03);
+  border-radius: 16px;
+}
+
+.colaboradores {
+  font-weight: 500;
+  font-size: 36px;
 }
 
 .container__texto {
-    max-width: 50%;
-    text-align: center;
-    line-height: 1.5rem;
+  max-width: 50%;
+  text-align: center;
+  line-height: 1.5rem;
 }
 
 .container__metricas {
-    display: grid;
-    width: 86%;
-    grid-template-columns: 25% 25% 25% 25%;
-    gap: 1em;
-    margin: 0 auto;
+  display: grid;
+  width: 86%;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 1em;
+  margin: 0 auto;
 }
 
 .metricas {
-    display: block;
+  display: block;
 }
 
 .metrica__titulo {
-    color: var(--color-secundary);
-    font-size: 60px;
-    font-weight: 600;
-    margin-bottom: 0.5em;
+  color: var(--color-secundary);
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 0.5em;
 }
 
 .metrica__subtitulo {
-    margin-bottom: 0.5em;
-    font-size: 18px;
-    font-weight: 500;
-    color: #101828;
+  margin-bottom: 0.5em;
+  font-size: 18px;
+  font-weight: 500;
+  color: #101828;
 }
 
 .metrica_texto {
-    font-size: var(--font-default);
-    color: var(--gray-500);
-    line-height: 24px;
+  font-size: var(--font-default);
+  color: var(--gray-500);
+  line-height: 24px;
 }
 
 .talentos__badge {
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--color-secundary);
-    background: rgba(142, 36, 36, 0.05);
-    border-radius: 16px;
-    padding: 4px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-secundary);
+  background: rgba(142, 36, 36, 0.05);
+  border-radius: 16px;
+  padding: 4px 12px;
 }
 
 .talentos__titulo {
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 44px;
-    padding: 0.5em 0;
-
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  padding: 0.5em 0;
 }
 
 .talentos__texto {
-    font-size: 20px;
-    line-height: 30px;
-    color: #667085;
-    padding-bottom: 3em;
+  font-size: 20px;
+  line-height: 30px;
+  color: #667085;
+  padding-bottom: 3em;
 }
 
 .container__vaga {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 336px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .vaga {
-    display: flex;
-    flex-direction: column;
-    padding: 24px 24px 28px;
-    gap: 24px;
-    box-sizing: border-box;
-    border: 1px solid #EAECF0;
-    width: 768px;
-    height: 138px;
-    border-radius: 16px;
-    margin: 24px 0;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 24px 28px;
+  gap: 24px;
+  box-sizing: border-box;
+  border: 1px solid #eaecf0;
+  width: 768px;
+  height: 138px;
+  border-radius: 16px;
+  margin: 24px 0;
+}
+
+h1 .vaga__area {
+  display: flex;
+  align-content: flex-start;
 }
 
 .titulo__vaga {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 28px;
-    color: #101828;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #101828;
 }
 
 .informacoes span {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #667085;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+
+.perfil {
+  width: 56px;
+  height: 56px;
+  margin: 0.5em;
+}
+
+.nome {
+  font-size: var(--font-default);
+  font-weight: 500;
+  padding: 0.5em;
+}
+
+.profissao {
+  font-size: 14px;
+  color: #667085;
+}
+
+.container__oportunidades {
+  background: #f9fafb;
+  text-align: center;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titulo__oportunidades {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  padding: 0.5em;
+}
+
+.texto__oportunidades {
+  font-size: 20px;
+  color: #667085;
+  font-weight: 400;
+  padding: 0.5em;
+}
+.form__email {
+  display: flex;
+  justify-content: center;
+  padding: 0.5em;
+}
+
+.email {
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  width: 360px;
+  height: 48px;
+  padding: 0.5em;
+}
+
+.email::placeholder {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.enviar__email {
+  padding: 12px 20px;
+  gap: 8px;
+  width: 116px;
+  height: 48px;
+  background: #8e2424;
+  border: 1px solid #8e2424;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  margin-left: 16px;
+  color: var(--color-primary);
+}
+
+.copyrigth {
+    color: #98A2B3;
 }
